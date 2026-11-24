@@ -1,4 +1,4 @@
-# VibeFix: free check on every deploy
+# VibeFix (vibe-fixer.com): free check on every deploy
 
 This Action runs a free check after each deploy. Want a problem fixed in your code? Ask our AI agent at vibe-fixer.com.
 
@@ -88,5 +88,9 @@ Any other address is refused, and nothing is checked.
 - **What's posted:** whether a new user can sign up, how many problems a new user would hit, and their titles, with a link to the result. On a public repo, findings that could expose your users' data are counted but not described, and no screenshot is posted. On a private repo, the result links a screenshot when one was taken.
 - **Links:** the result and screenshot links are unguessable public links.
 - **Protected previews:** previews behind a login (for example, Vercel deployment protection) can't be checked. Use the public address.
+
+## Shopify stores
+
+VibeFix also works on Shopify stores. The [free Shopify homepage accessibility checker](https://vibe-fixer.com/tools/shopify-accessibility-checker) runs an automated, read-only check of a store's public homepage against what software can test of WCAG 2.0 and 2.1, Levels A and AA (not WCAG 2.2). If it finds issues, our AI agent can fix them in your theme's code on an unpublished copy. You preview the copy and publish it yourself, and the AI agent re-checks your live store. Details: [VibeFix for Shopify stores](https://vibe-fixer.com/stores).
 
 [VibeFix for Shopify stores](https://vibe-fixer.com/stores) · [Free Shopify accessibility checker](https://vibe-fixer.com/tools/shopify-accessibility-checker) · [Privacy](https://vibe-fixer.com/privacy) · [Terms](https://vibe-fixer.com/terms) · [help@vibe-fixer.com](mailto:help@vibe-fixer.com)
