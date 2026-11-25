@@ -33,7 +33,7 @@ jobs:
     if: github.event.deployment_status.state == 'success'
     runs-on: ubuntu-latest
     steps:
-      - uses: yos88da/vibefix-signup-check@v1
+      - uses: vibe-fixer/vibefix-signup-check@v1
 ```
 
 On a public repo, Vercel reports deployments to GitHub, so this workflow works as it is. A private repo also needs the site marker (see [Only apps your repo points to](#only-apps-your-repo-points-to)).
@@ -53,7 +53,7 @@ jobs:
   signup-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: yos88da/vibefix-signup-check@v1
+      - uses: vibe-fixer/vibefix-signup-check@v1
         with:
           url: https://your-app.example.com
 ```
